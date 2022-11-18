@@ -23,7 +23,8 @@ namespace task.eight
 
 		public static Report CreateReport(string text, DateTime date, Person assignee)
 		{
-			Report report = new Report(text, date, assignee);
+			string status = "В РАБОТЕ";
+			Report report = new Report(text, date, assignee, status);
 			return report;
 		}
 

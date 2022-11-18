@@ -6,6 +6,7 @@ namespace task.eight
 		private string _text;
 		private DateTime _date;
 		private Person _assignee;
+		private string _status;
 
 		public string text
 		{
@@ -22,12 +23,18 @@ namespace task.eight
 			set { _assignee = value; }
 			get { return _assignee; }
 		}
+		public string status
+		{
+			set { _status = value; }
+			get { return _status; }
+		}
 
-		public Report(string text, DateTime date, Person assignee)
+		public Report(string text, DateTime date, Person assignee, string status)
 		{
 			this.text = text;
 			this.date = date;
 			this.assignee = assignee;
+			this.status = status;
 
 		}
     }

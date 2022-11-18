@@ -9,7 +9,7 @@ namespace task.eight
         {
             
             //1 method
-            string description = "Creating a website";
+            string description = "Website";
             DateTime deadline = new DateTime();
             Person reporter = new Person("Ahmetov");
             Person teamlead = new Person("Khuzina");
@@ -23,11 +23,25 @@ namespace task.eight
             Task task1 = new Task("lkvne", new DateTime(), new Person("vjb"), new Person("elvpj"), "lcnlv", new Report("lwcbc", new DateTime(), new Person("wlc")));
             Task task2 = new Task("lfkev", new DateTime(), new Person("kfn"), new Person("ve"), "etg", new Report("vfe", new DateTime(), new Person("vefve")));
             Task task3 = new Task("rbbbt", new DateTime(), new Person("greerg"), new Person("gtb"), "bt", new Report("vcer", new DateTime(), new Person("brgb")));
+            Task task4 = new Task("lfkev", new DateTime(), new Person("kfn"), new Person("ve"), "etg", new Report("vfe", new DateTime(), new Person("vefve")));
+            Task task5 = new Task("lfkev", new DateTime(), new Person("kfn"), new Person("ve"), "etg", new Report("vfe", new DateTime(), new Person("vefve")));
+            Task task6 = new Task("lfkev", new DateTime(), new Person("kfn"), new Person("ve"), "etg", new Report("vfe", new DateTime(), new Person("vefve")));
+            Task task7 = new Task("lfkev", new DateTime(), new Person("kfn"), new Person("ve"), "etg", new Report("vfe", new DateTime(), new Person("vefve")));
+            Task task8 = new Task("lfkev", new DateTime(), new Person("kfn"), new Person("ve"), "etg", new Report("vfe", new DateTime(), new Person("vefve")));
+            Task task9 = new Task("lfkev", new DateTime(), new Person("kfn"), new Person("ve"), "etg", new Report("vfe", new DateTime(), new Person("vefve")));
+            Task task10 = new Task("lfkev", new DateTime(), new Person("kfn"), new Person("ve"), "etg", new Report("vfe", new DateTime(), new Person("vefve")));
 
             project.tasks.Add(task1);
             project.tasks.Add(task2);
             project.tasks.Add(task3);
-            
+            project.tasks.Add(task4);
+            project.tasks.Add(task5);
+            project.tasks.Add(task6);
+            project.tasks.Add(task7);
+            project.tasks.Add(task8);
+            project.tasks.Add(task9);
+            project.tasks.Add(task10);
+
             Console.WriteLine(project);
 
 
