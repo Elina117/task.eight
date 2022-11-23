@@ -10,7 +10,9 @@ namespace task.eight
 		private string _status;
 		private Report _report;
 
-
+        /// <summary>
+        /// 
+        /// </summary>
 		public string description
 		{
 			set { _description = value; }

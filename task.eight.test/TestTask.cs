@@ -14,7 +14,7 @@ public class TestTask
         Person reporter = new Person("tgho");
         Person assignee = new Person("pgje");
         string status = "jfjj";
-        Report report = new Report("ieohg", new DateTime(), new Person("ggro"));
+        Report report = new Report("ieohg", new DateTime(), new Person("ggro"), "hgri");
 
         Task classObject = new Task(description, deadline, reporter, assignee, status, report);
 
@@ -34,7 +34,7 @@ public class TestTask
         Person reporter = new Person("tgho");
         Person? assignee = null;
         string status = "jfjj";
-        Report report = new Report("ieohg", new DateTime(), new Person("ggro"));
+        Report report = new Report("ieohg", new DateTime(), new Person("ggro"), "jgirgj");
 
         Task classObject = new Task(description, deadline, reporter, assignee, status, report);
 

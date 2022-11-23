@@ -13,9 +13,9 @@ public class TestProject
         DateTime deadline = new DateTime();
         Person reporter = new Person("lvnle");
         Person teamlead = new Person("kjbv");
-        Task task1 = new Task("lkvne", new DateTime(), new Person("vjb"), new Person("elvpj"), "lcnlv", new Report("lwcbc", new DateTime(), new Person("wlc")));
-        Task task2 = new Task("lfkev", new DateTime(), new Person("kfn"), new Person("ve"), "etg", new Report("vfe", new DateTime(), new Person("vefve")));
-        Task task3 = new Task("rbbbt", new DateTime(), new Person("greerg"), new Person("gtb"), "bt", new Report("vcer", new DateTime(), new Person("brgb")));
+        Task task1 = new Task("lkvne", new DateTime(), new Person("vjb"), new Person("elvpj"), "lcnlv", new Report("lwcbc", new DateTime(), new Person("wlc"), "fjkf"));
+        Task task2 = new Task("lfkev", new DateTime(), new Person("kfn"), new Person("ve"), "etg", new Report("vfe", new DateTime(), new Person("vefve"), "ekgn"));
+        Task task3 = new Task("rbbbt", new DateTime(), new Person("greerg"), new Person("gtb"), "bt", new Report("vcer", new DateTime(), new Person("brgb"), "egjofk"));
         List<Task> tasks = new List<Task>() { task1, task2, task3 };
         string status = "wocwpn";
 
